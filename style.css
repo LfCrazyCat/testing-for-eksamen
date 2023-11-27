@@ -250,6 +250,25 @@ p {
   width: 40px;
   
 }
+
+.grid p {
+  font-size: 15px;
+}
+
+#clients {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px; /* Maks vidde her også */
+  width: 100%; /* Sånn at containeren tar hele bredden */
+  padding: 0 30px;
+  flex-grow: 1;
+}
+#clients h2 {
+  font-weigt: bold;
+}
+
+
 /* 
 .grid figcaption p {
   overflow: hidden;
