@@ -221,6 +221,11 @@ p {
 
 #our-services { /* Seksjonen på about.html, med id our-service */
   display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px; /* Maks vidde her også */
+  width: 100%; /* Sånn at containeren tar hele bredden */
+  padding: 0 20px;
 }
 
 #our-services h2 {
@@ -235,7 +240,7 @@ p {
 }
 
 .grid figure:first-child {
-  margin-right: auto; /* Push the first figure to the left */
+  margin-right: 0; 
 }
 
 
