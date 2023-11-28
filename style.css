@@ -392,30 +392,43 @@ article {
   background-color: #ee930c;
 }
 /* SEKSJON PÅ INDEX.HTML OG ABOUT.HTML  */
-
-
-figcaption {
-  background-color: lightblue;
-  padding: 5px;
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  text-align: center; 
 }
-h3 {
+.wrapper h2 {
+  
+}
+.wrapper article {
+  background-color: white;
+}
+
+.wrapper article h3 {
   margin-bottom: 25px;
 }
 
+
+.wrapper figcaption {
+  background-color: silver;
+  padding: 5px;
+}
+
+
 /* Responsive, for skjermer bredere enn 600px */
 @media screen and (min-width: 600px) {
-  #the-service {
+  .wrapper {
     flex-direction: row;
     align-items: flex-start;
   }
-  h2 {
+  .wrapper h2 {
     align-self: start;
     width: 100%;
   }
-  figure {
-    flex: 1;
-  }
+
 }
+
 
 /* Seksjoenen services på index.fil */
 /*
