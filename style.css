@@ -222,13 +222,9 @@ main section article img {
 }
 
 #clients h2 {
-  margin-top: 10%;
-  height: 0px;
-  width: 50px;
-  font-size: 40px;
-  margin-left: 0%;
-  text-align: right;
-  
+  font-size: 1.9em; /* You can adjust the font size as needed */
+  color: #000; /* Set the desired text color */
+  margin-bottom: 20px; /* Adjust the margin as needed */
 }
 
 
