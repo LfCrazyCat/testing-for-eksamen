@@ -406,6 +406,20 @@ h3 {
   margin-bottom: 25px;
 }
 
+/* Responsive, for skjermer bredere enn 600px */
+@media screen and (min-width: 600px) {
+  #the-service {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  h2 {
+    align-self: start;
+    width: 100%;
+  }
+  figure {
+    flex: 1;
+  }
+}
 
 /* Seksjoenen services på index.fil */
 /*
