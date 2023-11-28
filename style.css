@@ -299,53 +299,6 @@ address {
   top: 35%;
 }
 
-form { max-width:350px; margin:0px auto; 
-}
-
-.feedback-input {
-color:white;
-font-family: Helvetica, Arial, sans-serif;
-font-weight:500;
-font-size: 18px;
-border-radius: 5px;
-line-height: 22px;
-background-color: transparent;
-border:2px solid #d5d5d5;
-transition: all 0.3s;
-padding: 13px;
-margin-bottom: 15px;
-width:100%;
-box-sizing: border-box;
-outline:0;
-}
-
-.feedback-input:focus { border:2px solid #CC4949; }
-
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 38%;
-  background:#e6bd43;
-  border-radius:2px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:5px;
-  padding-bottom:5px;
-  transition: all 0.3s;
-  margin-top:-5px;
-  font-weight:800;
-  margin-left: -61%;
-}
-[type="submit"]:hover { background:#CC4949; }
-
-
 
 #branding {
   display: flex;
@@ -395,6 +348,40 @@ article {
 #development h2 {
   font-size: 40px;
 }
+
+/* Newsletter */ 
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+
+.form-inline label {
+  margin: 0px 5px 0px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 5px solid #ddd;
+}
+
+.form-inline button {
+  padding: 12px 12px;
+  background-color: #e6bd43;
+  border: 1px solid #ddd;
+  color: black;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.form-inline button:hover {
+  background-color: #ee930c;
+}
+
 
 
 
