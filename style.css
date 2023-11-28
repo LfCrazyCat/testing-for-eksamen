@@ -350,10 +350,19 @@ article {
 }
 
 /* Newsletter */ 
+#newsletter-form {
+  background-color: #f2eeee;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+}
+
 .form-inline {  
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
+  align-items:  baseline;
+  margin-left: 50em;
+  margin-bottom: 5em;
 }
 
 
@@ -363,25 +372,43 @@ article {
 
 .form-inline input {
   vertical-align: middle;
-  margin: 5px 10px 5px 0;
+  margin: 0px 5px 0px 0;
   padding: 10px;
   background-color: #fff;
   border: 5px solid #ddd;
 }
 
 .form-inline button {
-  padding: 12px 12px;
+  padding: 10px 20px;
   background-color: #e6bd43;
-  border: 1px solid #ddd;
+  border: 5px solid #ddd;
   color: black;
   cursor: pointer;
   font-weight: bolder;
 }
 
+
 .form-inline button:hover {
   background-color: #ee930c;
 }
 
+
+/* Seksjoenen services på index.fil */
+#services {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  background-color: white;
+}
+
+#services h2 {
+  margin-bottom: 20px; 
+}
+
+#services article {
+  background-color: white; 
+  font-size: 20px;
+}
 
 
 
