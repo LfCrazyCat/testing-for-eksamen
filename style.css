@@ -341,99 +341,53 @@ address {
   top: 35%;
 }
 
+/* H4 tekst for products.html */
+h4 {
+  font-size: 40px;
+  text-align: left;
+  text-decoration: solid;
+}
+
+
 #branding,
 #design,
-#developement {
-  display: flex;
-    max-height: 20px;
-  max-width: 350px;
-}
-
-.left-article {
-  float: left; 
-  padding: 10px;
-  height: 300px;
-}
-
-.left, .right {
-  width: 25%;
-}
-
-.middle-article {
-  width: 25%;
-}
-
-.leftunder-article {
-  width: 25%;
-  width: 50%;
-}
-
-.branding:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.design:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.developement:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/*
-#branding {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1600px;
-  margin: 20px;
-
-}
-#branding h2 {
-  font-size: 40px;
-} 
-
-article {
-      width: calc(33.33% - 20px); /* Three columns with some spacing *
-      margin-bottom: 10px;
-      box-sizing: border-box;
-      border: 1px solid #ddd;
-      padding: 5px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-  #branding article:last-child {
-      width: 100%; /* Full width for the last article *
-    }
- 
-
-#design {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      max-width: 1200px;
-      margin: 20px auto;
-}
-
-#design h2 {
-  font-size: 40px;
-}
-
 #development {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      max-width: 1200px;
-      margin: 20px auto;
- }
+    display: flex;
+    flex-wrap: wrap;
+}
 
-#development h2 {
-  font-size: 40px;
-} */
+.left-branding,
+.middle-branding,
+.right-branding,
+.leftunder-branding,
+.left-design,
+.middle-design,
+.right-design,
+.left-development,
+.right-development {
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .left-branding,
+    .middle-branding,
+    .right-branding,
+    .leftunder-branding,
+    .left-design,
+    .middle-design,
+    .right-design,
+    .left-development,
+    .right-development {
+        width: 33.33%;
+    }
+}
+
+
+
+
+
 
 /* Newsletter */ 
 #newsletter-form {
