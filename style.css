@@ -1,16 +1,13 @@
 * {
   box-sizing: border-box;
 }
-/*
-html {
-  font-size: calc(1em + 1vw);
-}
-*/
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 1600px;
 }
 
 #logo {
@@ -341,14 +338,18 @@ address {
   top: 35%;
 }
 
+
 /* H4 tekst for products.html */
 h4 {
-  font-size: 40px;
-  text-align: left;
-  text-decoration: solid;
+  font-size: 25px;
+  text-align:  left;
+  margin: 1%;
+  font-weight: 700;
+  text-decoration: underline #e6bd43;
+  text-underline-offset: 10px; 
 }
 
-
+/* SEKSJONER PÅ PRODUCTS.HTML */
 #branding,
 #design,
 #development {
@@ -370,6 +371,80 @@ h4 {
     background-color: white;
 }
 
+#branding {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-branding,
+.middle-branding,
+.right-branding,
+.leftunder-branding {
+    padding: 5px;
+    background-color: white;
+}
+
+.left-branding,
+.middle-branding,
+.right-branding {
+    width: 30%;
+}
+
+.leftunder-branding {
+    width: 50%;
+  float: left;
+  margin: 1%
+}
+
+#branding h3 {
+  font-size: 18px;
+  text-align: left;
+}
+
+#design {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-design, 
+.middle-design,
+.right-design {
+  padding: 5px;
+  background-color: white;
+}
+.left-design, 
+.middle-design,
+.right-design {
+  width: 30%;
+}
+#design h3 {
+  font-size: 18px;
+  text-align: left;
+}
+
+#developement {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-developement,
+.right-developement {
+  padding: 5px;
+  background-color: white;
+}
+.left-developement,
+.right-developement {
+  margin: 1%;
+  width: 48%;
+}
+#developement h3 {
+  font-size: 18px;
+  text-align: left;
+}
+
+
+
+
+
+/* 
 @media (min-width: 768px) {
     .left-branding,
     .middle-branding,
@@ -380,12 +455,9 @@ h4 {
     .right-design,
     .left-development,
     .right-development {
-        width: 33.33%;
+        width: 33.33%; /* Gir en vidde der det kan ligge inntill 3 artikler *
     }
-}
-
-
-
+} */
 
 
 
