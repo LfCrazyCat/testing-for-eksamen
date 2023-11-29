@@ -127,7 +127,7 @@ main section article img {
 
 
 
-/* Seksjon Headliner i index.html */ 
+/* Seksjon Headliner i index.html NYE */ 
 #headliner {
   display: inline-block; 
   background-color: #b9b6b6;
@@ -182,19 +182,59 @@ main section article img {
 
 
 
-
 /* Seksjonen our-company-about i index.html */
-#our-company-about {
-  display: grid; 
-  border-style: solid;
-}
+
 
 #our-company-about .read-more-btn {
   background-color: white;
   color: black; 
   border-style: solid;
-  font-weight: bold;
+  font-weight: 700;
+  margin: 4%;
 }
+
+
+#our-company-about {
+  display: flex;
+  flex-wrap: wrap; 
+  border: solid;
+  color: black;
+}
+.blank-grey,
+.about-company {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.blank-grey,
+.about-company {
+  width: 40%;
+  padding: 15px;  
+}
+#our-company-about img {
+  width: 70%;
+  padding: 15px; 
+}
+
+#our-company-about h2 {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10%;
+}
+#our-company-about p {
+  font-size: 15px;
+  text-align: left;
+  margin: -10%;
+}
+
+
+
+
+
+
+
+
 
 #services-section { /* Seksjonen på index, med id services */
   text-align: center;
