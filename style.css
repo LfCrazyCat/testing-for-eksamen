@@ -89,6 +89,30 @@ main {
   text-align: center; /* Tekstens hovedinnhold er senterjustert */ 
 }
 
+/* Bakgrunns video */
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5; /* Adjust the opacity as needed */
+  z-index: -1; /* Ensure the video is behind other content */
+}
+
+.content {
+  position: absolute;
+  bottom: 20em;
+  background: rgba(0, 0, 0, 0.5);
+  color: #000000;
+  font-weight: bold;
+  width: 40%;
+  padding: 40px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+
 
 main section h2 {
   margin: 2rem 0; /* avstand til bunnen og toppen av underoverskrift */ 
@@ -317,7 +341,50 @@ address {
   top: 35%;
 }
 
+#branding,
+#design,
+#developement {
+  display: flex;
+    max-height: 20px;
+  max-width: 350px;
+}
 
+.left-article {
+  float: left; 
+  padding: 10px;
+  height: 300px;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle-article {
+  width: 25%;
+}
+
+.leftunder-article {
+  width: 25%;
+  width: 50%;
+}
+
+.branding:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.design:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.developement:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*
 #branding {
   display: flex;
   flex-wrap: wrap;
@@ -328,10 +395,10 @@ address {
 }
 #branding h2 {
   font-size: 40px;
-}
+} 
 
 article {
-      width: calc(33.33% - 20px); /* Three columns with some spacing */
+      width: calc(33.33% - 20px); /* Three columns with some spacing *
       margin-bottom: 10px;
       box-sizing: border-box;
       border: 1px solid #ddd;
@@ -340,8 +407,9 @@ article {
 }
 
   #branding article:last-child {
-      width: 100%; /* Full width for the last article */
+      width: 100%; /* Full width for the last article *
     }
+ 
 
 #design {
       display: flex;
@@ -365,7 +433,7 @@ article {
 
 #development h2 {
   font-size: 40px;
-}
+} */
 
 /* Newsletter */ 
 #newsletter-form {
