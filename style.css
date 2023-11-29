@@ -344,9 +344,19 @@ h4 {
   font-size: 25px;
   text-align:  left;
   margin: 1%;
-  font-weight: 700;
+  font-weight: 900;
   text-decoration: underline #e6bd43;
   text-underline-offset: 10px; 
+}
+
+/* PRODUCTS.HTML */
+h1 {
+  font-size: 50px; 
+  height: 5em;
+  background-color: grey;
+  text-align: center;
+  padding: 1.5em; 
+  font-weight: 900;
 }
 
 /* SEKSJONER PÅ PRODUCTS.HTML */
