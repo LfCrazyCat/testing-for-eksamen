@@ -127,45 +127,7 @@ main section article img {
   width: 100%;
 }
 
-#main-navigation {
-  background-color: white;
-  padding: 10px;
-}
 
-#main-navigation ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-#main-navigation a {
-  text-decoration: none;
-  color: #333;
-}
-
-#main-navigation a:hover {
-  background-color: #e6bd43;
-}
-
-
-
-
-.read-more-btn { /* Styling for les-mer knapp */ 
-  background-color: #e6bd43;
-  color: #000000;
-  display: inline-block; 
-  padding: 1rem;
-  text-decoration: none;
-  margin: 2rem auto;
-  font-size: 0.8rem;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 20px 35px;
-  font-size: 26px
-  
-}
 
 /* Seksjon Headliner i index.html */ 
 #headliner {
@@ -344,19 +306,81 @@ h4 {
   font-size: 25px;
   text-align:  left;
   margin: 1%;
-  font-weight: 900;
+  font-weight: 800;
   text-decoration: underline #e6bd43;
   text-underline-offset: 10px; 
 }
 
 /* PRODUCTS.HTML */
+
 h1 {
   font-size: 50px; 
   height: 5em;
   background-color: grey;
   text-align: center;
   padding: 1.5em; 
-  font-weight: 900;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: left;
+  margin: 1%;
+  font-weight: 800;
+  text-decoration: underline #e6bd43;
+  text-underline-offset: 10px
+}
+
+/* NAVIGASJON PÅ PRODUCTS.HTML */
+#main-navigation {
+  background-color: white;
+  padding: 20px;
+  place-content: start;
+}
+
+#main-navigation ul {
+  list-style: none;
+  margin: 4%;
+  padding: 1%;
+  display: flex;
+}
+
+
+#main-navigation a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 650;
+  text-align: left;
+  border: 0.5px solid grey; 
+  display: flex;
+  margin: 0.3em;
+ 
+}
+
+#main-navigation a:hover {
+  background-color: #e6bd43;
+  font-weight: 800;
+  text-decoration:underline;
+}
+
+
+
+
+
+
+.read-more-btn { /* Styling for les-mer knapp */ 
+  background-color: #e6bd43;
+  color: #000000;
+  display: inline-block; 
+  padding: 1rem;
+  text-decoration: none;
+  margin: 2rem auto;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px 35px;
+  font-size: 26px
+  
 }
 
 /* SEKSJONER PÅ PRODUCTS.HTML */
